@@ -1,2 +1,3 @@
-# freshdesk-nagos
-Nagios alerting plugin for Freshdesk
+# freshdesk-scripts
+
+- freshdesk.py: nagios alerting to Freshdesk
