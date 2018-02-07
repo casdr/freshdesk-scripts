@@ -9,7 +9,7 @@ ath = HTTPBasicAuth('api_key', 'x') # fill in your freshdesk api key
 subdomain = 'beeh' # fill in your freshdesk subdomain
 
 def do_request(rtype, url, data={}, files={}):
-        url = 'https://aalderingict.freshdesk.com/api/v2/{0}'.format(url)
+        url = 'https://{0}.freshdesk.com/api/v2/{1}'.format(subdomain, url)
         headers = {
                 'Content-Type': 'application/json'
         }
